@@ -1,33 +1,33 @@
 # Web Scraping with Python
 
-Bu Python kodu, requests_html modülü kullanılarak bir web sitesinden veri çekmek için yapılmıştır.
+This Python script is made to pull data from a website using the requests_html module.
 
-## Kullanılan Modül
+## Module Used
 
-- requests_html: Web sayfalarını çekmek ve işlemek için kullanılır.
+- requests_html: Used to retrieve and process web pages.
 
-## Nasıl Kullanılır
+## How to Use
 
-1. `requests_html` modülünü yükleyin:
+1. Install the `requests_html` module:
  
 ```bash
    pip install requests-html
 ```
 
-2. Kodu çalıştırın:
+2. Run the script:
 
 ```bash   
 python web_scraping.py
 ```
 
-3. Kod, NTV haber sitesinden anlık başlıkları çekecek ve okunabilir hale getirmek için temizleyecektir.
+3. The code will pull instant headlines from NTV news site and clean them to make them readable.
 
-## Temizleme Fonksiyonu
+## Cleanup Function
 
-clean_text fonksiyonu, metni temizlemek için kullanılır. Özellikle '\n' (newline) ve '\xa0' (NO-BREAK SPACE) karakterlerini temizler.
+The clean_text function is used to clear text. In particular, it cleans '\n' (newline) and '\xa0' (NO-BREAK SPACE) characters.
 
-## Hata Durumları
+## Error Conditions
 
-Herhangi bir hata durumunda, ilgili hata mesajı ekrana yazdırılır.
+In case of any error, the relevant error message is printed to the screen.
 
 mertyetkiner
